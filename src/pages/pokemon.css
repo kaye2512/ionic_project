@@ -1,0 +1,127 @@
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.pokemon-item {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.pokemon-info {
+    max-width: 800px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.pokemon-info h2 {
+    font-size: 1.2em; /* Taille du titre */
+    margin-bottom: 5px; /* Espace sous le titre */
+}
+
+
+.pokemon-info p {
+    margin: 5px 0;
+}
+
+.pokemon-avatar img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.pokemon-details {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+
+.pokemon-details p {
+    margin: 0;
+}
+
+.pokemon-avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.pokemon-avatar img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+/* src/pages/Pokemon.css */
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.pokemon-item {
+    margin: 10px auto; /* Centrer l'élément horizontalement */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Largeur maximale pour centrer et contrôler la taille */
+}
+
+.pokemon-info {
+    max-width: 800px; /* Largeur maximale pour centrer le contenu */
+    width: 100%;
+    margin: 0 auto; /* Centrer le contenu horizontalement */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.pokemon-info h2 {
+    font-size: 1.2em; /* Taille du titre */
+    margin-bottom: 5px; /* Espace sous le titre */
+}
+
+.pokemon-info p {
+    margin: 5px 0;
+}
+
+.pokemon-avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.pokemon-avatar img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover; /* Assurer que l'image garde ses proportions */
+}
+
+.pokemon-details {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.pokemon-details p {
+    margin: 0;
+}
+
+
+.toolbar {
+    background-color: #007bff;
+}
