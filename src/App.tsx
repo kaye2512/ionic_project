@@ -73,7 +73,7 @@ const App: React.FC = () => (
             <IonIcon aria-hidden="true" icon={home} />
             <IonLabel>pokemon</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="tab2" href="/film">
+          <IonTabButton tab="film" href="/film">
             <IonIcon aria-hidden="true" icon={film} />
             <IonLabel>Film</IonLabel>
           </IonTabButton>
